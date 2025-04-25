@@ -1,0 +1,67 @@
+body{
+	 background-repeat: no-repeat;
+	 background-color:  #e6ccff;
+	background-image: url("../img/sfondo.jpg");
+	
+	background-position: top;
+}
+
+#tabella{
+	width:35%;
+	height:35%;
+	background-color: #ffb366;
+		border-collapse: collapse;
+		border: 1px solid #ff8c1a;
+		position: absolute;
+  left: 32%;
+  top: 45%;
+	
+}
+#tabella th{
+	
+	border: 1px solid #ff8c1a;
+	font-size: 1.7em;
+	font-family: TimesNewRomans;
+	padding: 0.3em;
+	
+	text-align: center;
+}
+#tabella td{
+	
+	border: 1px solid #ff8c1a;
+
+	
+	text-align: center;
+}
+#tabella td:hover {
+	
+	background-color:#ff8000;
+}
+a:link {
+    color:  #ff6600; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color:  #ff6600;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.avvio{
+	font-size: 1.7em;
+	font-family: TimesNewRomans;
+	padding: 0.3em;
+}
